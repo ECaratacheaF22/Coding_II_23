@@ -1,5 +1,5 @@
 
-public class ShoppingCart {
+public class ShoppingCar {
     public static void main (String[] args){
         String custName = "will Smith";
         String firstName;
