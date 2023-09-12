@@ -13,10 +13,8 @@ public class TernaryOperator {
         System.out.println("After if stmt, x = " + x);
         
          // Use a ternary operator to perform the same logic as above.
-        System.out.println("After ternary, x = " + ((y / x < 3 ? x + y : x * y)));
+        System.out.println("After ternary, x = " + ((y / x < 3 ? x += y : x * y)));
 
-         int dog = 7;
-         System.out.println("I got " + dog + " " + (dog == 1 ? "dog" : "dogs"));
 
     }
 }

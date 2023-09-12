@@ -7,18 +7,18 @@ public class aPracticeProblem1 {
 
         String firstName;
         String lastName;
-        String fullName;
+      
         int spaceIdx;
 
         System.out.println("What is your name");
         String fullName = sc.nextLine();
         spaceIdx = fullName.indexOf(" ");
-        firstName = fullName.substring(0, 2);
-
+        firstName = fullName.substring(0, 1);
+        lastName = fullName.substring(spaceIdx, 18);
         //spaceIdx = fullName.indexOf(" ");
 
 
-        System.out.println(firstName);
+        System.out.println(lastName + " " + firstName + ".");
         sc.close();
 
         //spaceIdx = custName.indexOf(" ");
