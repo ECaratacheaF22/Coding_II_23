@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class ComputeFare {
 
     public static void main(String args[]) {
@@ -6,5 +8,14 @@ public class ComputeFare {
         int age = keyboard.nextInt();
         int fare;
 
+        if(age < 11){
+            fare = 3;
+        } else if(age > 11 & age <65){
+            fare = 5;
+        } else {
+            fare = 3;
     }
+    System.out.println("Your fare is " + fare + "$");
+        keyboard.close();
+}
 }
