@@ -5,7 +5,7 @@ public class CalculatorTest3 {
        
        //Use the Calculator object and arguments supplied to findTotal()
        //to print the total for each person
-       calc.findTotal(10, "person 1");
+       calc.findTotal(12, "person 1");
        
        
        /*This is what everyone owes before tax and tip:
