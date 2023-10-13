@@ -6,7 +6,10 @@ public class League {
         Team Green = new Team("Green", 0, 0, 0, 0, 0);
 
         System.out.println(Green.getName());
-        
         Green.display();
+
+        Scheduler.Scheduler()
+
+
     }
 }

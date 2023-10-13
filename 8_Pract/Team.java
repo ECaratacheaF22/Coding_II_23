@@ -56,10 +56,6 @@ public class Team {
         this.goalScore = goalScore;
     }
 
-    //Arrays
-    public static void main(String[] args){
-        int[] teams = {};
-    }
 
 
     public void display(){
