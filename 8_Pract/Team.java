@@ -36,7 +36,6 @@ public class Team {
         return goalAllow;
     }
 
-
     //Setters
     public void setName(String Name) {
         this.Name = Name;
@@ -57,6 +56,12 @@ public class Team {
         this.goalScore = goalScore;
     }
 
+    //Arrays
+    public static void main(String[] args){
+        int[] teams = {};
+    }
+
+
     public void display(){
         System.out.println("Name: " + getName());
         System.out.println("win: " +getWin() +" Wins");
@@ -65,4 +70,8 @@ public class Team {
         System.out.println("Score: " +getScore() +" goals");
         System.out.println("Allowed: " + getAllow() +" Allowed");
     }
+
+
+
+
 }
