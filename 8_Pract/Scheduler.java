@@ -9,7 +9,7 @@ public class Scheduler {
         Temp = sc.nextDouble();
         System.out.println(Temp);
         sc.close();
-        return yTemp;
+        return Temp;
     }
 
     
